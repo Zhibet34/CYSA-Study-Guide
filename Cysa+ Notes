@@ -1,0 +1,105 @@
+Red Team : Offensive security 
+
+Blue Team : Defensive security
+
+Purple Team : Mixture of both Offensive and Defensive security
+
+
+Cybersecurity conferences :
+
+	- DEF CON :
+		+ Held in Vegas 
+		+ Incident Response (Blue Team)
+		+ Capture the flag competition - (CTF)
+
+	- Pwn2Own :
+		+ Hacking contest held at CanSecWest Security Conference 
+			- Not a conference, just a hacking competition that focuses on  discovering new vulnerabilities in the 
+			  world of cybersecurity 
+
+		+ Similar to the Black Hat Conference
+			- Red Team
+
+	- Black Hat Conference :
+		+ Big cybersecurity conference that focuses on  revealing new vulnerabilities 
+		+ Red Team 
+
+	- RSA Conference or (RSAC) :
+		+ Cover the entire spectrum of cybersecurity 
+		+ Purple Team
+			- Mixture of Red team And Blue Team
+
+Which of the following techniques should be used to mitigate the risk of data remanence 
+      when moving virtual hosts from one server to another in the cloud ? :
+
+	- Use Full-disk encryption:
+		+ Correct Answer 
+		- reason: 
+			# This method will ensure that all data is encrypted and cannot be exposed to other organizations
+				 or the underlying IaaS provider.
+
+	- Use Data Masking: 
+		+ Wrong Answer
+		- reasons :
+			# This techniques just replace the information with filler characters like 'X' to prevent the data from being read, 
+				but the data will still be exposed to anyone to see
+
+	- zero-wipe drives before moving systems:
+		+  Wrong Answer
+		- reason :
+			# This method is impossible, the reason being virtual machines systems can move user data without user intervention during 				scaling hours
+
+	- Span multiple virtual disks to fragment data :
+		+ Wrong Answer:
+		- reason :
+			# this method will only make the data harder to access by third parties because it separated into different locations,
+				but the data is still available for someone to see
+
+Reconnaissance Technique :
+
+	- A DNS forward or reverse lookup :
+		+ Passive or Active Techniques 
+			- Depending on the Hacker
+
+		+ Used to find out what ip address correspond to what name or what name correspond to what ip address
+
+
+	- A whois query :
+		+ Passive Technique (*)
+		+ Used to search for domain names, ip address block and other identifiable information that give hackers information about a company 			in databases or autonomous system
+
+	- A zone transfer :
+		+ Active Technique
+		+ Used to replicate DNS databases across a set DNS servers	
+
+	- Using maltego :
+ 		+ Passive Technique
+		+ OSIN :
+			- Open Source Intelligence and Forensics
+			
+		+ used to visualize information in a graph format suitable for link analysis and data mining
+		+ gather information from whois lookup servers, DNS lookup ad email
+
+Scanning Techniques ( Weather or Not it will trigger IPS ) :
+
+	- NMAP stealth scan :
+		+ Wrong Answer
+		- reason:
+			# More invasive	than DNS attacks and IPS/IDS systems are on a lookout for these type of attacks
+
+	- DNS zone transfer :
+		+ Wrong Answer
+		- reason:
+			# More invasive	than DNS attacks and IPS/IDS systems are on a lookout for these type of attacks
+
+	- DNS brute-force attack :
+		+ Correct Answer
+		- reason :
+			# DNS queries on a network often appears as normal Traffic 
+
+	- NMAP ping sweep :
+		+ Wrong Answer
+		- reason:
+			# More invasive	than DNS attacks and IPS/IDS systems are on a lookout for these type of attacks
+
+***** Continue tomorrow on Question # 10 *****
