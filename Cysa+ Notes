@@ -66,7 +66,7 @@ Reconnaissance Technique :
 
 	- A whois query :
 		+ Passive Technique (*)
-		+ Used to search for domain names, ip address block and other identifiable information that give hackers information about a company 			in databases or autonomous system
+		+ Used to search for domain names, ip address block and other identifiable information that give hackers information about a company in 				      		databases or autonomous system
 
 	- A zone transfer :
 		+ Active Technique
@@ -102,4 +102,76 @@ Scanning Techniques ( Weather or Not it will trigger IPS ) :
 		- reason:
 			# More invasive	than DNS attacks and IPS/IDS systems are on a lookout for these type of attacks
 
-***** Continue tomorrow on Question # 10 *****
+Open Source Security Testing Methodology Manual (O-S-S-T-M-M) :
+
+	- Provides a structured approach to security testing accross a variety of areas
+		+ Application
+		+ Networks
+		+ Systems
+
+MITRE ATTACK Framework :
+	
+	- serves as a knowledge base for understanding attackers T-T-P
+		- T : Technique
+		- T : Tactic
+		- Procedures
+
+Cyber Kill Chain :
+	
+	- Describes the stages of cyber attacks
+	- Does not provide guidance for a comprehensive assessment 
+	- stages :
+		+ Reconnaissance
+			# Attacker identifies and select a target
+				ex :
+					- Company employee
+
+		+ Weaponization
+			# Attacker create an attack for the employee
+				ex:
+					- The attack can be a phishing email
+
+		+ delivery
+			# the Attacker send the employee the attack
+				ex: 	
+					- In this scenario its an email
+		+ Exploitation
+			# The code executes on the users system
+				ex:
+					- when the email is clicked on the user, malicious code is executed in the background of the employees email
+
+		+ installation
+			# The virus is installed on the employees computer
+
+		+ Command and control (c2)
+			# the attacker gains a backdoor into the employees system
+
+		+ Actions on Objectives
+			# The attacker can do whatever the goal of the hack was
+				- ex: Data exfiltration
+
+Diamon Model Of Instrusion Analysis :
+
+	- focuses on understanding relationships in a cyber attack
+
+FPGA :
+	Definition : Field Programmable Gate Array
+		+ used for Anti Tampering
+
+Single Pane Of Glass : 
+	Definition - aggregate data from multiple sources into a single dashboard
+
+SandWorm attack :
+	- Zero Day Attack
+
+NIST Framework :
+	- Risk
+	- Informed
+	- Repeatable
+	- Adaptive
+
+TCP Flags:
+	- N : Flag will show the IP addresses in numeric form
+	- NN : Shows IP addresses and ports in numeric format
+	- E : Ethernet header during packet capture
+	- X : Capture the packet's payload in hex and ASCII formats
