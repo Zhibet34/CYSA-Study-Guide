@@ -4,6 +4,7 @@ Blue Team : Defensive security
 
 Purple Team : Mixture of both Offensive and Defensive security
 
+Rootkit : Type of malicious software (malware) designed to gain unauthorized, privileged access (like "root" or "admin" access) to a computer or system and then hide its presence and activity.
 
 Cybersecurity conferences :
 
@@ -175,3 +176,22 @@ TCP Flags:
 	- NN : Shows IP addresses and ports in numeric format
 	- E : Ethernet header during packet capture
 	- X : Capture the packet's payload in hex and ASCII formats
+
+Fuzzy Hashing: 
+	- Helps you to perform similarity analysis
+	- Match two files with minor differences based on the fuzzy hash values
+		+ SSDeep
+			- Link: 'https://ssdeep-project.github.io/ssdeep/index.html'
+	- Alternative name :
+		+ context triggered piecewise hashes (CTPH)
+
+Pass-The-Hash attack:
+	- technique where an attacker captures a password hash (as opposed to the password characters)
+
+Attack Matrix:
+	- link
+		+ 'https://attack.mitre.org/'
+
+Chimera:
+	- link
+		+ 'https://attack.mitre.org/groups/G0114/'
