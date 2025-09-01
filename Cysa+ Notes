@@ -118,6 +118,8 @@ MITRE ATTACK Framework :
 		- Procedures
 
 Cyber Kill Chain :
+
+	- Established by Lockheed Martin
 	
 	- Describes the stages of cyber attacks
 	- Does not provide guidance for a comprehensive assessment 
@@ -193,5 +195,55 @@ Attack Matrix:
 		+ 'https://attack.mitre.org/'
 
 Chimera:
+	- chinnese hacker group
 	- link
 		+ 'https://attack.mitre.org/groups/G0114/'
+
+- Script is also known as a macro
+	+ macro 
+		- A recorded sequence of commands that automates repetitive tasks in software 				(just like a script)
+
+Watering Hole Attack :
+	- an attack where hackers compromise legimate websites frequented by a specific target group to infect their devices with malware
+
+Timestomping: 
+	- technique that lets an attacker modify the files timestamps, including 
+		+ modify
+		+ access
+		+ change times
+
+Web Shell:
+	- Malicious script written in web development languages used by attacker to maintain access to the compromised system
+
+DNS Tunneling:
+	- Infected machine makes DNS requests to the attackers DNS server
+
+Shadow Copy :
+	- Microsoft technology that can create backup copies, snapshots of computer files or volumes
+
+Unified Kill Chain (UKC) :
+	- used to understand how cyber attacks occurs
+	- used along other frameworks like the mitre
+	- used to understand HAckers and APT's TTP
+	- helps identify attack surfaces so that they can be patched before hand 
+	- have more phases than regular kill chain
+		- cyber kill chain
+			+ size = 8 steps
+		- unified kill chain (UKC)
+			+ 18 steps
+			- link : 'https://medium.com/@AbhijeetSingh4/unified-kill-chain-soc-lavel-1-tryhackme-walkthrough-12f7c512a92c'
+
+threat modeling tools:
+	- stride
+		+ created by microsoft
+	- dread
+		+ d = damage
+		+ R = reproducibility
+		+ E = exploitation
+		+ A = affected users
+		+ D = discoverability
+	- cvss
+		+ score vulnerabilities based on dangerous they are
+
+Mimikatz:
+	- used to steal passwords stored in memory
