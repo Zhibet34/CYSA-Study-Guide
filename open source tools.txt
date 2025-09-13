@@ -1,0 +1,79 @@
+Threat Intelligence : the analysis of data and information using tools and techniques to generate meaningful patterns on how to stop threats  targeting industries and sectors
+
+	- Questions to help mitigate risks
+
+		+ who's attacking you
+
+		+ what's their motivation
+			- example
+				+ money
+				+ hacktivist
+
+		+ what are their capabilities
+			- example
+				+ script kiddies
+				+ nation state
+				+ organized criminal gang
+
+		+ what IOC'S should you look out for
+			- DDOS
+			- Data Breaches
+			- Malware Dissemination
+
+Threat Intelligence Classifications:
+
+	+ Strategic Intel:
+		- looks into the organisation threat landscape and maps out risk based on trents patterns and emerging threats that may impact bussiness decision
+	
+	+ Technical Intel: Looks into evidence of attacks used by an adversary
+	
+	+ Tactical Intel: assess adversary TTP's
+	
+	+ Operational Intel: Looks into an adversary specific motive and intent to perform an attack
+
+Open Source Tools:
+
+	Urlscan.io - open source software that give me you details about a website based on the url
+		
+		+ Details Results
+			- summary : Provides general information about the url, Ip address, domain registry
+
+			- HTTP : provide info on the HTTP connection made by the scanner to the site
+
+			- redirect : shows info on any Identified HTTP and client-side redirect on the site
+
+			- links : shows all the identified links outgoing from the site's homepage
+
+			- behaviour : provides details of the variable and cookies found on the site
+
+			- indicators : shows all IPS, domains and hashes associated with the site
+
+		+ used to view sites without visiting
+
+		+ link
+			- https://urlscan.io/
+
+	Abuse.ch - developed to identify and track malware and botnets through the following platform
+	
+		+ Malware baazaar : used to share malware samples
+			- link : https://bazaar.abuse.ch/
+
+		+ Feodo Tracker: used to track C2 infrastructure linked with emotet, dridex and trickbot
+			- link : https://feodotracker.abuse.ch/
+
+		+ SSL Blacklist: used to collect and provide a blocklist for malicious certificate and JA3
+			- link : https://sslbl.abuse.ch/
+
+		+ Url Haus: A resource for sharing malware distribution sites
+			- link : https://urlhaus.abuse.ch/
+
+		+ Threat Fox: a resource for sharing IOC's
+			- link : https://threatfox.abuse.ch/
+
+
+
+
+
+
+
+
